@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Reverser</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0097B2; /* Light teal background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative; /* Set relative positioning for the body */
+        }
+
+        .logo {
+            position: absolute; /* Absolute positioning for the logo */
+            top: 20px; /* Distance from the top */
+            left: 20px; /* Distance from the left */
+            width: 150px; /* Set a width for the logo */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: xx-large;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+        }
+
+        /* Style for the file input */
+        input[type="file"] {
+            display: none; /* Hide default file input */
+        }
+
+        .file-upload-btn {
+            background-color: #4a9b9b; /* Darker teal color */
+            color: white;
+            border: none;
+            padding: 10px 20px; /* Add padding for a button-like appearance */
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.3s;
+            margin: 10px 0; /* Space above button */
+            width: 100%; /* Full width button */
+        }
